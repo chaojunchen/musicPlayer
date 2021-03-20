@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="shortcut icon" href="../images/bg.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div id="wrap">
+        <!--中间歌曲图片-->
+        <div class="songImg">
+            <img src="" alt="">
+        </div>
+        <!---歌曲信息-->
+        <div class="songInfo">
+            <h2 class="name"></h2>
+            <div class="auther"></div>
+            <div class="album"></div>
+        </div>
+        <!-- 进度条 -->
+        <div class="progress">
+            <div class="currentTime">00:00</div>
+            <div class="drag">
+                <div class="circle"></div>
+                <div class="totalBg"></div>
+                <div class="currentBg"></div>
+
+            </div>
+            <div class="totalTime">00:00</div>
+        </div>
+        <!-- 底部控制区域 -->
+        <ul class="control">
+            <li class="like "></li>
+            <li class="prev"></li>
+            <li class="pause"></li>
+            <li class="next"></li>
+            <li class="playList"></li>
+        </ul>
+        <div class="dialogList">
+            <div class="songWrap">
+                <p class="title">播放列表</p>
+                <ul class="songList">
+                    <!-- <li class="active">最炫民族风</li>
+                    <li>最炫民族风</li>
+                    <li>最炫民族风</li>
+                    <li>最炫民族风</li>
+                    <li>最炫民族风</li>
+                    <li>最炫民族风</li>
+                    <li>最炫民族风</li>
+                    <li>最炫民族风</li>
+                    <li>最炫民族风</li>
+                    <li>最炫民族风</li> -->
+                </ul>
+                <div class="close">关闭</div>
+            </div>
+        </div>
+    </div>
+    <script src="../util/ajax.js"></script>
+    <script src="../util/gaussBlur.js"></script>
+    <script src="../util/debounce.js"></script>
+    <!-- 渲染模块 -->
+    <script src="../js/render.js"></script>
+    <!-- 音频模块，得到数据创建audio -->
+    <script src="../js//audio.js"></script>
+    <!-- 控制下标。音乐的上一首，下一首 -->
+    <script src="../js/indexControl.js"></script>
+    <!-- 底部的弹出框（歌曲列表）事件处理。 -->
+    <script src="../js/musicList.js"></script>
+    <!-- 进度条模块 -->
+    <script src="../js/progress.js"></script>
+    <!-- 主要的模块 -->
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

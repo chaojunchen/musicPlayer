@@ -1,0 +1,21 @@
+[
+	{
+		"image": "../source/img_1.jpg",
+		"audioSrc": "../source/song_1.mp3",
+		"name": "不露声色",
+		"album": "咿呀咿呀哟",
+		"singer": "jam",
+		"duration": "305",
+		"isLike": true
+	},
+
+	{
+		"image": "../source/img_2.jpg",
+		"audioSrc": "../source/song_2.mp3",
+		"name": "听妈妈的化",
+		"album": "依然范特西",
+		"singer": "周杰伦",
+		"duration": "265",
+		"isLike": false
+	}
+]
